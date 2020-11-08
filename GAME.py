@@ -91,39 +91,4 @@ while running:
                     RYchange = -10
                 if event.key == pygame.K_DOWN:
                     RYchange = 10
-
-
-    # screen.blit(background, (0, 0))
-    #
-    # seconds = (pygame.time.get_ticks() - start_ticks) / 1000  # calculate how many seconds
-    # if seconds > 10000:
-    #     break
-    # for event in pygame.event.get():
-    #     if event.type == pygame.QUIT:
-    #         running = False
-    #         sys.exit()
-    #     if event.type == pygame.KEYDOWN:
-    #         if event.key == pygame.K_LEFT:
-    #             PlayerX_change = -10
-    #         if event.key == pygame.K_RIGHT:
-    #             PlayerX_change = 10
-    #         if event.key == pygame.K_UP:
-    #             PlayerY_change = -10
-    #         if event.key == pygame.K_DOWN:
-    #             PlayerY_change = 10
-
-    #     if event.type == pygame.KEYUP:
-    #         if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
-    #             PlayerX_change = 0
-    #         if event.key == pygame.K_UP or event.key == pygame.K_DOWN:
-    #             PlayerY_change = 0
-    # playerX += PlayerX_change
-    # if playerX <= 0:
-    #     playerX = 0
-    # if playerX >= 730:
-    #     playerX = 730
-    # playerY += PlayerY_change
-    # if playerY <= 0:
-    #     playerY = 0
-    # elif playerY >= 500:
-    #     playerY = 500
+#This is a test
